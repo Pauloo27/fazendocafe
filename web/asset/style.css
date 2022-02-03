@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Comfortaa', cursive !important;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: auto auto;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+a {
+  color: #C69838;
+  text-decoration: none;
+}
+
+.color-red {
+  color: #ff5555;
+}
+
+.img {
+    width: 20rem;
+}

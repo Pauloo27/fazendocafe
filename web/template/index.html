@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/asset/style.css" rel="stylesheet">
+    <link href="/asset/font.css" rel="stylesheet">
+    <title>{{.Title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#C69838" />
+    <meta property="og:image" content="/asset/cafe.gif"/>
+    <meta property="og:site_name" content="Fazendo Café"/>
+    <link rel="icon" type="image/x-icon" href="/asset/icon.png">
+    <meta
+      name="og:description"
+      content="{{.Description}}"
+    />
+    <meta
+      name="description"
+      content="{{.Description}}"
+    />
+  </head>
+  <body>
+    <h1 class="center padding-10">{{.Title}}</h1>
+    <h2 class="center padding-10">{{.Subtitle}}</h2>
+    <img class="center padding-10 img" src="/asset/{{.Gif}}.gif"/>
+  </body>
+</html>
