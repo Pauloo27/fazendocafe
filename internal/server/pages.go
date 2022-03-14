@@ -2,6 +2,12 @@ package server
 
 var (
 	pages = map[string]*Page{
+		"quere.ndo.cafe": {
+			Title:       "QUERO CAFÉ!1!!",
+			Subtitle:    "ÉÉÉÉÉÉÉÉ",
+			Description: "QUERO CAFÉÉÉÉÉÉÉÉÉÉ",
+			Image:       "quero-cafe.gif",
+		},
 		"faze.ndo.cafe": {
 			Title:       "Fazendo Café",
 			Subtitle:    "Já volto",
