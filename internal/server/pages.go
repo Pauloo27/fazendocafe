@@ -25,6 +25,13 @@ var (
 			Image:       "blink.gif",
 		},
 		{
+			URL:         "danca.ndo.cafe",
+			Title:       "Dançando",
+			Subtitle:    "Já tomei o meu café",
+			Description: "Estou dançando...",
+			Image:       "dance.gif",
+		},
+		{
 			URL:         "bebe.ndo.cafe",
 			Title:       "Bebendo Café...",
 			Subtitle:    "Recarregando as energias e matando a sede",
