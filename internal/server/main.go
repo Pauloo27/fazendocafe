@@ -15,11 +15,11 @@ func Start(port int) {
 	})
 
 	app.Get("/", func(ctx *fiber.Ctx) error {
-		page, found := pages[ctx.Get("Host")]
+		page, found := pagesMap[ctx.Get("Host")]
 		if !found {
-			return ctx.SendStatus(404)
+			return ctx.Render("index", pages)
 		}
-		return ctx.Render("index", page)
+		return ctx.Render("page", page)
 	})
 
 	app.Static("/asset", "./web/asset")

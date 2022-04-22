@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/asset/style.css" rel="stylesheet">
     <link href="/asset/font.css" rel="stylesheet">
-    <title>...ndo Café</title>
+    <title>{{.Title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#C69838" />
-    <meta property="og:image" content="/asset/icon.png"/>
-    <meta property="og:site_name" content="...ndo Café"/>
+    <meta property="og:image" content="/asset/{{.Image}}"/>
+    <meta property="og:site_name" content="{{.Title}}"/>
     <link rel="icon" type="image/x-icon" href="/asset/icon.png">
     <meta
       name="og:description"
-      content="...ndo Café"
+      content="{{.Description}}"
     />
     <meta
       name="description"
-      content="...ndo Café"
+      content="{{.Description}}"
     />
   </head>
   <body>
-    <h1 class="center padding-10">...ndo Café</h1>
-    <h2 class="center padding-10">Qual te representa melhor?</h1>
-    {{range .}}
-      <a class="center padding-10" target="_blank" href="https://{{.URL}}">{{.URL}}</a>
-    {{end}}
+    <h1 class="center padding-10">{{.Title}}</h1>
+    <h2 class="center padding-10">{{.Subtitle}}</h2>
+    <img class="center padding-10 img" src="/asset/{{.Image}}"/>
+    <a class="center padding-10" target="_blank" href="https://ndo.cafe">
+      <h3 class="center padding-10">outros ...ndo.cafe</h3>
+    </a>
   </body>
 </html>
