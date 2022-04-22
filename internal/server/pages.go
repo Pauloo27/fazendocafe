@@ -11,20 +11,6 @@ var (
 			Image:       "quero-cafe.gif",
 		},
 		{
-			URL:         "come.ndo.cafe",
-			Title:       "Comendo Café",
-			Subtitle:    "Yummy",
-			Description: "Comendo Café",
-			Image:       "yummy.gif",
-		},
-		{
-			URL:         "bebe.ndo.cafe",
-			Title:       "Bebendo Café...",
-			Subtitle:    "Recarregando as energias e matando a sede",
-			Description: "Recarregando as energias",
-			Image:       "glub.gif",
-		},
-		{
 			URL:         "faze.ndo.cafe",
 			Title:       "Fazendo Café",
 			Subtitle:    "Já volto",
@@ -37,6 +23,20 @@ var (
 			Subtitle:    "Aguarde um minuto, estou tomando café",
 			Description: "Estou tomando café... Já volto",
 			Image:       "blink.gif",
+		},
+		{
+			URL:         "bebe.ndo.cafe",
+			Title:       "Bebendo Café...",
+			Subtitle:    "Recarregando as energias e matando a sede",
+			Description: "Recarregando as energias",
+			Image:       "glub.gif",
+		},
+		{
+			URL:         "come.ndo.cafe",
+			Title:       "Comendo Café",
+			Subtitle:    "Yummy",
+			Description: "Comendo Café",
+			Image:       "yummy.gif",
 		},
 		{
 			URL:         "derrama.ndo.cafe",
