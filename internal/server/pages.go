@@ -8,6 +8,12 @@ var (
 			Description: "QUERO CAFÉÉÉÉÉÉÉÉÉÉ",
 			Image:       "quero-cafe.gif",
 		},
+		"come.ndo.cafe": {
+			Title:       "Comendo Café",
+			Subtitle:    "Yummy",
+			Description: "Comendo Café",
+			Image:       "yummy.gif",
+		},
 		"faze.ndo.cafe": {
 			Title:       "Fazendo Café",
 			Subtitle:    "Já volto",
