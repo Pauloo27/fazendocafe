@@ -14,6 +14,12 @@ var (
 			Description: "Comendo Café",
 			Image:       "yummy.gif",
 		},
+		"bebe.ndo.cafe": {
+			Title:       "Bebendo Café...",
+			Subtitle:    "Recarregando as energias e matando a sede",
+			Description: "Recarregando as energias",
+			Image:       "glub.gif",
+		},
 		"faze.ndo.cafe": {
 			Title:       "Fazendo Café",
 			Subtitle:    "Já volto",
