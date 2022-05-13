@@ -18,6 +18,10 @@ body {
   padding: 10px;
 }
 
+.margin-top-40 {
+  margin-top: 40px;
+}
+
 a {
   color: #C69838;
 }
