@@ -9,13 +9,16 @@ import (
 )
 
 var (
-	port int
+	port      int
+	debugMode bool
 )
 
 func init() {
 	if err := godotenv.Load(); err != nil {
 		panic(err)
 	}
+
+	debugMode = os.Getenv("CAFE_DEBUG_MODE") == "true"
 
 	rawPort := os.Getenv("CAFE_PORT")
 
@@ -27,5 +30,5 @@ func init() {
 }
 
 func Start() {
-	server.Start(port)
+	server.Start(port, debugMode)
 }
